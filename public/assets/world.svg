@@ -1,0 +1,14 @@
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="world" clip-path="url(#clip0_456_206)">
+<g id="Group 17">
+<path id="Vector" d="M8.15211 15.7899C12.1102 15.7899 15.3188 12.5813 15.3188 8.62321C15.3188 4.66517 12.1102 1.45654 8.15211 1.45654C4.19407 1.45654 0.985443 4.66517 0.985443 8.62321C0.985443 12.5813 4.19407 15.7899 8.15211 15.7899Z" stroke="white" stroke-linecap="square"/>
+<path id="Vector_2" d="M7.83549 15.0103L8.15211 15.2693L8.46873 15.0103C10.3761 13.4497 11.3188 11.3003 11.3188 8.62329C11.3188 5.94626 10.3761 3.79689 8.46873 2.23631L8.15211 1.97726L7.83549 2.23631C5.92812 3.79689 4.98544 5.94626 4.98544 8.62329C4.98544 11.3003 5.92812 13.4497 7.83549 15.0103Z" stroke="white" stroke-linecap="round"/>
+<path id="Vector_3" d="M14.8188 6.32329H1.48544V6.62329V6.92329H14.8188V6.62329V6.32329ZM14.8188 10.3233H1.48544V10.6233V10.9233H14.8188V10.6233V10.3233Z" stroke="white" stroke-width="0.6" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_456_206">
+<rect width="16" height="16" fill="white" transform="translate(0.1521 0.623291)"/>
+</clipPath>
+</defs>
+</svg>

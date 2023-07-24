@@ -1,0 +1,22 @@
+.carousel-container {
+    /* background: url("../../public/assets/banner-bg.png"), linear-gradient(to right, #15656c93, #053439a4); */
+    background: url("../../public/assets/banner-bg.png"), radial-gradient(393.26% 90.24% at 83.54% 17.40%, #02282B 0%, #156469 100%);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+/* .carousel-container {
+  background: radial-gradient(393.26% 90.24% at 83.54% 17.40%, #02282B 0%, #156469 100%);
+} */
+
+
+/* .carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #fff !important;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: none !important;
+} */

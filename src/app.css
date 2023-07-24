@@ -1,0 +1,35 @@
+.send-money .content p,
+.bill-pay .content p,
+.cash-out .content p,
+.mobile-recharge .content p,
+.download-app .content p {
+  padding: 0.4rem 0;
+}
+
+.bill-pay,
+.mobile-recharge,
+.contact-us {
+  background: #f5f3f3;
+}
+
+footer .footer-container {
+  background: 
+    linear-gradient(to left, #02282b, #156469);
+  
+}
+
+footer .company, footer .connect, footer .newsletter {
+  margin-top: 32px;
+}
+
+footer .top .footer-col p {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.top .company ul li {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
