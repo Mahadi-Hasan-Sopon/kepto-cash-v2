@@ -41,7 +41,7 @@ const CarouselHeader = ({ scrollRef }) => {
               title={label}
               style={{ ...arrowStyles, left: 158 }}
             >
-              <img src="/assets/carousel-prev.svg" alt="" />
+              <img src="assets/carousel-prev.svg" alt="" />
             </button>
           )
         }
@@ -53,7 +53,7 @@ const CarouselHeader = ({ scrollRef }) => {
               title={label}
               style={{ ...arrowStyles, right: 160 }}
             >
-              <img src="/assets/carousel-next.svg" alt="" />
+              <img src="assets/carousel-next.svg" alt="" />
             </button>
           )
         }
@@ -99,14 +99,14 @@ const CarouselHeader = ({ scrollRef }) => {
               <button className="flex gap-3 text-secColor font-medium cursor-pointer">
                 Learn More
                 <span>
-                  <img src="/assets/next arrow.svg" alt="" />
+                  <img src="assets/next arrow.svg" alt="" />
                 </span>
               </button>
             </div>
             <div className="image">
               <img
                 className="md:w-3/4 lg:w-full mx-auto"
-                src="/assets/banner.png"
+                src="assets/banner.png"
                 alt=""
               />
             </div>
@@ -129,14 +129,14 @@ const CarouselHeader = ({ scrollRef }) => {
               <button className="flex gap-3 text-secColor font-medium cursor-pointer">
                 Learn More
                 <span>
-                  <img src="/assets/next arrow.svg" alt="" />
+                  <img src="assets/next arrow.svg" alt="" />
                 </span>
               </button>
             </div>
             <div className="image">
               <img
                 className="md:w-3/4 lg:w-full mx-auto"
-                src="/assets/banner.png"
+                src="assets/banner.png"
                 alt=""
               />
             </div>
@@ -159,14 +159,14 @@ const CarouselHeader = ({ scrollRef }) => {
               <button className="flex gap-3 text-secColor font-medium cursor-pointer">
                 Learn More
                 <span>
-                  <img src="/assets/next arrow.svg" alt="" />
+                  <img src="assets/next arrow.svg" alt="" />
                 </span>
               </button>
             </div>
             <div className="image">
               <img
                 className="md:w-3/4 lg:w-full mx-auto"
-                src="/assets/banner.png"
+                src="assets/banner.png"
                 alt=""
               />
             </div>
