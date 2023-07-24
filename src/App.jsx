@@ -62,24 +62,24 @@ function App() {
         <div className="right-content flex-1">
           <Benefit
             className="mb-10"
-            icon={"/assets/low-charge.svg"}
+            icon={"assets/low-charge.svg"}
             h4={"Low Charge"}
             p={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."}
           />
           <Benefit
             className="mb-10"
-            icon={"/assets/fast-transection.svg"}
+            icon={"assets/fast-transection.svg"}
             h4={"Fast Transaction"}
             p={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."}
           />
           <Benefit
             className="mb-10"
-            icon={"/assets/secure.svg"}
+            icon={"assets/secure.svg"}
             h4="Secure Payment"
             p="Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
           />
           <Benefit
-            icon={"/assets/support.svg"}
+            icon={"assets/support.svg"}
             h4="24/7 Support"
             p="Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
           />
@@ -98,18 +98,18 @@ function App() {
           10,000+ clients who are getting more replies
         </p>
         <div className="logos flex justify-between mt-20">
-          <img src="/assets/brands-logo/logo-8 1.svg" alt="" />
-          <img src="/assets/brands-logo/logo-6.svg" alt="" />
-          <img src="/assets/brands-logo/logo-7 1.svg" alt="" />
-          <img src="/assets/brands-logo/logo-3.svg" alt="" />
-          <img src="/assets/brands-logo/logo-1 1.svg" alt="" />
+          <img src="assets/brands-logo/logo-8 1.svg" alt="" />
+          <img src="assets/brands-logo/logo-6.svg" alt="" />
+          <img src="assets/brands-logo/logo-7 1.svg" alt="" />
+          <img src="assets/brands-logo/logo-3.svg" alt="" />
+          <img src="assets/brands-logo/logo-1 1.svg" alt="" />
         </div>
         <div className="logos flex justify-between">
-          <img src="/assets/brands-logo/logo-8 1.svg" alt="" />
-          <img src="/assets/brands-logo/logo-6.svg" alt="" />
-          <img src="/assets/brands-logo/logo-7 1.svg" alt="" />
-          <img src="/assets/brands-logo/logo-3.svg" alt="" />
-          <img src="/assets/brands-logo/logo-1 1.svg" alt="" />
+          <img src="assets/brands-logo/logo-8 1.svg" alt="" />
+          <img src="assets/brands-logo/logo-6.svg" alt="" />
+          <img src="assets/brands-logo/logo-7 1.svg" alt="" />
+          <img src="assets/brands-logo/logo-3.svg" alt="" />
+          <img src="assets/brands-logo/logo-1 1.svg" alt="" />
         </div>
       </section>
 
@@ -167,15 +167,15 @@ function App() {
           </div>
           <div className="btn-group flex gap-4">
             <Button className="my-3 cursor-pointer">
-              <img src="/assets/app-store.svg" alt="" />
+              <img src="assets/app-store.svg" alt="" />
             </Button>
             <Button className="my-3 cursor-pointer">
-              <img src="/assets/google-play.svg" alt="" />
+              <img src="assets/google-play.svg" alt="" />
             </Button>
           </div>
         </div>
         <div className="img pb-5">
-          <img src="/assets/bottom.svg" alt="" />
+          <img src="assets/bottom.svg" alt="" />
         </div>
       </section>
 
@@ -202,7 +202,7 @@ function App() {
         <div className="footer-container pt-7 pb-10 px-[239px] text-white text-base font-normal">
           <div className="top grid md:grid-cols-2 md:flex md:flex-wrap md:gap-5 md:justify-between items-center md:items-start md:justify-items-center mb-14">
             <div className="footer-col">
-              <img src="/assets/footer-logo.svg" alt="" />
+              <img src="assets/footer-logo.svg" alt="" />
               <p>Sample text sample</p>
               <p>sample text sampletext</p>
               <p>textSample text textsample</p>
