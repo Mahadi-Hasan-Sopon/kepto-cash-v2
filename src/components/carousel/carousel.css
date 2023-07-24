@@ -1,6 +1,6 @@
 .carousel-container {
-    /* background: url("../../public/assets/banner-bg.png"), linear-gradient(to right, #15656c93, #053439a4); */
-    background: url("../../public/assets/banner-bg.png"), radial-gradient(393.26% 90.24% at 83.54% 17.40%, #02282B 0%, #156469 100%);
+    /* background: url("assets/banner-bg.png"), linear-gradient(to right, #15656c93, #053439a4); */
+    background: url("assets/banner-bg.png"), radial-gradient(393.26% 90.24% at 83.54% 17.40%, #02282B 0%, #156469 100%);
   background-size: cover;
   background-blend-mode: overlay;
 }
