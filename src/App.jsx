@@ -45,8 +45,8 @@ function App() {
 
       {/* Benefits Section Start */}
 
-      <section className="benefits flex gap-6 justify-around py-32 px-36 items-center">
-        <div className="left-content flex-1">
+      <section className="benefits flex flex-col gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center">
+        <div className="left-content lg:flex-1">
           <p className="text-base font-semibold mb-1">
             Why should you work with us?
           </p>
@@ -59,7 +59,7 @@ function App() {
             erat, sed diam voluptua invidunt ut labore.
           </p>
         </div>
-        <div className="right-content flex-1">
+        <div className="right-content lg:flex-1">
           <Benefit
             className="mb-10"
             icon={"assets/low-charge.svg"}
@@ -90,21 +90,21 @@ function App() {
 
       {/* Brand Logo Section Start */}
 
-      <section className="brand-logos py-28 px-[103px] bg-[#FAFAFA] ">
+      <section className="brand-logos py-28 px-10 lg:px-[103px] bg-[#FAFAFA] ">
         <h2 className="text-5xl font-bold text-secColor mb-3 text-center">
           Analyze your sales and marketing leads
         </h2>
         <p className="text-center font-semibold text-base text-[#5B5B5B]">
           10,000+ clients who are getting more replies
         </p>
-        <div className="logos flex justify-between mt-20">
+        <div className="logos flex flex-wrap justify-center lg:justify-between mt-20">
           <img src="assets/brands-logo/logo-8 1.svg" alt="" />
           <img src="assets/brands-logo/logo-6.svg" alt="" />
           <img src="assets/brands-logo/logo-7 1.svg" alt="" />
           <img src="assets/brands-logo/logo-3.svg" alt="" />
           <img src="assets/brands-logo/logo-1 1.svg" alt="" />
         </div>
-        <div className="logos flex justify-between">
+        <div className="logos flex flex-wrap justify-center lg:justify-between">
           <img src="assets/brands-logo/logo-8 1.svg" alt="" />
           <img src="assets/brands-logo/logo-6.svg" alt="" />
           <img src="assets/brands-logo/logo-7 1.svg" alt="" />
@@ -124,9 +124,9 @@ function App() {
         <p className="text-center font-semibold text-base text-[#5B5B5B]">
           What our clients say
         </p>
-        <div className="testimonials grid grid-cols-3 gap-9 mt-[75px]">
+        <div className="testimonials grid grid-cols-auto lg:grid-cols-3 gap-6 lg:gap-9 mt-[75px]">
           <Testimonial
-            className="ms-4"
+            className="lg:ms-4"
             name="Breanna Parker"
             review={5}
             message="Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla."
@@ -150,8 +150,8 @@ function App() {
 
       {/* Download App Section Start */}
 
-      <section className="download-app pt-[150px] pl-[315px] pb-[107px] pr-[339px] grid lg:grid-cols-2 justify-items-center items-center gap-[149px]">
-        <div className="content flex flex-col justify-center items-start my-5">
+      <section className="download-app lg:pt-[150px] lg:pl-[315px] lg:pb-[107px] lg:pr-[339px] grid lg:grid-cols-2 justify-items-center items-center gap-[149px]">
+        <div className="content flex flex-col justify-center items-center px-10 lg:items-start my-5">
           <h1 className="text-secColor text-3xl font-bold">
             Download Kepto Cash
           </h1>
@@ -183,7 +183,7 @@ function App() {
 
       {/* Contact Us Section Start */}
 
-      <section className="contact-us px-[189px] lg:px-36 py-14">
+      <section className="contact-us px-10 lg:px-[189px] py-14">
         <h1 className="text-secColor font-bold text-5xl pb-4 text-center">
           Contact Us
         </h1>
@@ -199,7 +199,7 @@ function App() {
       {/* Footer Section Start */}
 
       <footer className="w-full">
-        <div className="footer-container pt-7 pb-10 px-[239px] text-white text-base font-normal">
+        <div className="footer-container pt-7 pb-10 px-10 lg:px-[239px] text-white text-base font-normal">
           <div className="top grid md:grid-cols-2 md:flex md:flex-wrap md:gap-5 md:justify-between items-center md:items-start md:justify-items-center mb-14">
             <div className="footer-col">
               <img src="assets/footer-logo.svg" alt="" />

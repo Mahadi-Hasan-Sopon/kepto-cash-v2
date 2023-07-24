@@ -4,14 +4,14 @@ import "./carousel.css";
 
 // eslint-disable-next-line react/prop-types
 const CarouselHeader = ({ scrollRef }) => {
-  const arrowStyles = {
-    position: "absolute",
-    zIndex: 2,
-    top: "calc(50% - 15px)",
-    width: 30,
-    height: 30,
-    cursor: "pointer",
-  };
+  // const arrowStyles = {
+  //   position: "absolute",
+  //   zIndex: 2,
+  //   top: "calc(50% - 15px)",
+  //   width: 30,
+  //   height: 30,
+  //   cursor: "pointer",
+  // };
 
   const indicatorStyles = {
     width: 10,
@@ -28,6 +28,7 @@ const CarouselHeader = ({ scrollRef }) => {
       <Carousel
         // eslint-disable-next-line react/prop-types
         className="lg:-mt-24"
+        swipeable={false}
         showThumbs={false}
         showStatus={false}
         infiniteLoop
@@ -39,7 +40,8 @@ const CarouselHeader = ({ scrollRef }) => {
               type="button"
               onClick={onClickHandler}
               title={label}
-              style={{ ...arrowStyles, left: 158 }}
+              // style={{ ...arrowStyles, left: 158 }}
+              className="absolute inset-y-2/4 left-12 md:left-24 lg:left-40 w-[30px] h-[30px] z-10"
             >
               <img src="assets/carousel-prev.svg" alt="" />
             </button>
@@ -51,7 +53,8 @@ const CarouselHeader = ({ scrollRef }) => {
               type="button"
               onClick={onClickHandler}
               title={label}
-              style={{ ...arrowStyles, right: 160 }}
+              // style={{ ...arrowStyles, right: 160 }}
+              className="absolute inset-y-2/4 right-12 md:right-24 lg:right-40 w-[30px] h-[30px] z-10"
             >
               <img src="assets/carousel-next.svg" alt="" />
             </button>
@@ -175,6 +178,6 @@ const CarouselHeader = ({ scrollRef }) => {
       </Carousel>
     </section>
   );
-}
+};
 
 export default CarouselHeader;

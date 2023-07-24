@@ -11,7 +11,7 @@ function Testimonial({ name, review, message, className }) {
   };
 
   return (
-    <div className={`${className ? className : ''} testimonial px-8 py-9`}>
+    <div className={`${className ? className : ''} testimonial py-5 lg:px-8 lg:py-9`}>
       <div className="flex mb-6 items-center gap-4">
         <div className="img">
           <img src="assets/testimonial-Image.svg" alt="" />
