@@ -14,7 +14,7 @@ function Testimonial({ name, review, message, className }) {
     <div className={`${className ? className : ''} testimonial px-8 py-9`}>
       <div className="flex mb-6 items-center gap-4">
         <div className="img">
-          <img src="../../../public/assets/testimonial-Image.svg" alt="" />
+          <img src="/assets/testimonial-Image.svg" alt="" />
         </div>
         <div className="name-review">
           <h6 className="text-[18px] font-bold mb-1 text-[#000]">{name}</h6>
