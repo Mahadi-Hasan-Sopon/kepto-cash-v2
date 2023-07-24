@@ -62,24 +62,24 @@ function App() {
         <div className="right-content flex-1">
           <Benefit
             className="mb-10"
-            icon={"../public/assets/low-charge.svg"}
+            icon={"/assets/low-charge.svg"}
             h4={"Low Charge"}
             p={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."}
           />
           <Benefit
             className="mb-10"
-            icon={"../public/assets/fast-transection.svg"}
+            icon={"/assets/fast-transection.svg"}
             h4={"Fast Transaction"}
             p={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."}
           />
           <Benefit
             className="mb-10"
-            icon={"../public/assets/secure.svg"}
+            icon={"/assets/secure.svg"}
             h4="Secure Payment"
             p="Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
           />
           <Benefit
-            icon={"../public/assets/support.svg"}
+            icon={"/assets/support.svg"}
             h4="24/7 Support"
             p="Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
           />
@@ -98,18 +98,18 @@ function App() {
           10,000+ clients who are getting more replies
         </p>
         <div className="logos flex justify-between mt-20">
-          <img src="../public/assets/brands-logo/logo-8 1.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-6.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-7 1.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-3.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-1 1.svg" alt="" />
+          <img src="/assets/brands-logo/logo-8 1.svg" alt="" />
+          <img src="/assets/brands-logo/logo-6.svg" alt="" />
+          <img src="/assets/brands-logo/logo-7 1.svg" alt="" />
+          <img src="/assets/brands-logo/logo-3.svg" alt="" />
+          <img src="/assets/brands-logo/logo-1 1.svg" alt="" />
         </div>
         <div className="logos flex justify-between">
-          <img src="../public/assets/brands-logo/logo-8 1.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-6.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-7 1.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-3.svg" alt="" />
-          <img src="../public/assets/brands-logo/logo-1 1.svg" alt="" />
+          <img src="/assets/brands-logo/logo-8 1.svg" alt="" />
+          <img src="/assets/brands-logo/logo-6.svg" alt="" />
+          <img src="/assets/brands-logo/logo-7 1.svg" alt="" />
+          <img src="/assets/brands-logo/logo-3.svg" alt="" />
+          <img src="/assets/brands-logo/logo-1 1.svg" alt="" />
         </div>
       </section>
 
