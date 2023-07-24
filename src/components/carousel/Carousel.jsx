@@ -41,7 +41,7 @@ const CarouselHeader = ({ scrollRef }) => {
               title={label}
               style={{ ...arrowStyles, left: 158 }}
             >
-              <img src="../../../public/assets/carousel-prev.svg" alt="" />
+              <img src="/assets/carousel-prev.svg" alt="" />
             </button>
           )
         }
@@ -53,7 +53,7 @@ const CarouselHeader = ({ scrollRef }) => {
               title={label}
               style={{ ...arrowStyles, right: 160 }}
             >
-              <img src="../../../public/assets/carousel-next.svg" alt="" />
+              <img src="/assets/carousel-next.svg" alt="" />
             </button>
           )
         }
