@@ -45,7 +45,7 @@ function App() {
 
       {/* Benefits Section Start */}
 
-      <section className="benefits flex flex-col gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center">
+      <section className="benefits flex flex-col lg:flex-row gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center">
         <div className="left-content lg:flex-1">
           <p className="text-base font-semibold mb-1">
             Why should you work with us?
