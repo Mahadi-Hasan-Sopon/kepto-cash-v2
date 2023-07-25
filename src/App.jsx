@@ -118,7 +118,7 @@ function App() {
       {/* Customer Testimonial Section Start */}
 
       <section className="customer-testimonial py-28 px-[103px] bg-[#FAFAFA] ">
-        <h2 className="text-5xl font-bold text-secColor mb-3 text-center">
+        <h2 className="text-2xl lg:text-5xl font-bold text-secColor mb-3 text-center">
           Customer Testimonials
         </h2>
         <p className="text-center font-semibold text-base text-[#5B5B5B]">
@@ -184,7 +184,7 @@ function App() {
       {/* Contact Us Section Start */}
 
       <section className="contact-us px-10 lg:px-[189px] py-14">
-        <h1 className="text-secColor font-bold text-5xl pb-4 text-center">
+        <h1 className="text-secColor font-bold text-2xl lg:text-5xl pb-4 text-center">
           Contact Us
         </h1>
         <p className="text-base text-blackColor font-semibold w-3/6 text-center mx-auto pb-12">
