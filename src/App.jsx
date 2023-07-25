@@ -187,7 +187,7 @@ function App() {
         <h1 className="text-secColor font-bold text-3xl lg:text-5xl pb-4 text-center">
           Contact Us
         </h1>
-        <p className="text-base text-blackColor font-semibold w-3/6 text-center mx-auto pb-12">
+        <p className="text-base text-blackColor font-semibold lg:w-3/6 text-center mx-auto pb-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore.
         </p>
