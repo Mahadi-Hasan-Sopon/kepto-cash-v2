@@ -117,8 +117,8 @@ function App() {
 
       {/* Customer Testimonial Section Start */}
 
-      <section className="customer-testimonial py-28 px-[103px] bg-[#FAFAFA] ">
-        <h2 className="text-2xl lg:text-5xl font-bold text-secColor mb-3 text-center">
+      <section className="customer-testimonial py-28 px-10 lg:px-[103px] bg-[#FAFAFA] ">
+        <h2 className="text-3xl lg:text-5xl font-bold text-secColor mb-3 text-center">
           Customer Testimonials
         </h2>
         <p className="text-center font-semibold text-base text-[#5B5B5B]">
@@ -150,7 +150,7 @@ function App() {
 
       {/* Download App Section Start */}
 
-      <section className="download-app lg:pt-[150px] lg:pl-[315px] lg:pb-[107px] lg:pr-[339px] grid lg:grid-cols-2 justify-items-center items-center gap-[149px]">
+      <section className="download-app px-10 lg:pt-[150px] lg:pl-[315px] lg:pb-[107px] lg:pr-[339px] grid lg:grid-cols-2 justify-items-center items-center gap-20 lg:gap-[149px]">
         <div className="content flex flex-col justify-center items-center px-10 lg:items-start my-5">
           <h1 className="text-secColor text-3xl font-bold">
             Download Kepto Cash
@@ -184,7 +184,7 @@ function App() {
       {/* Contact Us Section Start */}
 
       <section className="contact-us px-10 lg:px-[189px] py-14">
-        <h1 className="text-secColor font-bold text-2xl lg:text-5xl pb-4 text-center">
+        <h1 className="text-secColor font-bold text-3xl lg:text-5xl pb-4 text-center">
           Contact Us
         </h1>
         <p className="text-base text-blackColor font-semibold w-3/6 text-center mx-auto pb-12">
