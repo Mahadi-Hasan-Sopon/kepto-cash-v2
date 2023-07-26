@@ -45,7 +45,7 @@ function App() {
 
       {/* Benefits Section Start */}
 
-      <section className="benefits flex flex-col lg:flex-row gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center">
+      <section id="features" className="benefits flex flex-col lg:flex-row gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center">
         <div className="left-content lg:flex-1">
           <p className="text-base font-semibold mb-1">
             Why should you work with us?
@@ -90,7 +90,7 @@ function App() {
 
       {/* Brand Logo Section Start */}
 
-      <section id="features" className="brand-logos py-28 px-10 lg:px-[103px] bg-[#FAFAFA] ">
+      <section className="brand-logos py-28 px-10 lg:px-[103px] bg-[#FAFAFA] ">
         <h2 className="text-5xl font-bold text-secColor mb-3 text-center">
           Analyze your sales and marketing leads
         </h2>
