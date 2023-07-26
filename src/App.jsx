@@ -36,7 +36,7 @@ function App() {
   }, [isIntersecting]);
 
   return (
-    <div className="relative font-opensans">
+    <div className="relative font-publicsans">
       <div className="sticky top-0 z-20 bg-transparent text-3xl text-sky-500 text-bold text-center">
         <Navbar />
       </div>
@@ -45,7 +45,10 @@ function App() {
 
       {/* Benefits Section Start */}
 
-      <section id="features" className="benefits flex flex-col lg:flex-row gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center">
+      <section
+        id="features"
+        className="benefits flex flex-col lg:flex-row gap-10 lg:gap-6 justify-around py-32 px-10 lg:px-36 items-center"
+      >
         <div className="left-content lg:flex-1">
           <p className="text-base font-semibold mb-1">
             Why should you work with us?
@@ -53,13 +56,13 @@ function App() {
           <h2 className="text-5xl font-bold text-secColor mb-3">
             Analyze your sales and marketing leads
           </h2>
-          <p className="text-base text-normal text-primaryColor">
+          <p className="text-base text-normal text-primaryColor text-justify pr-8">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua invidunt ut labore.
           </p>
         </div>
-        <div className="right-content lg:flex-1">
+        <div className="right-content lg:flex-1 pl-6">
           <Benefit
             className="mb-10"
             icon={"assets/low-charge.svg"}

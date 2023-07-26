@@ -1,3 +1,7 @@
+* {
+  font-family: "Public Sans", sans-serif;
+}
+
 .send-money .content p,
 .bill-pay .content p,
 .cash-out .content p,
@@ -13,12 +17,12 @@
 }
 
 footer .footer-container {
-  background: 
-    linear-gradient(to left, #02282b, #156469);
-  
+  background: linear-gradient(to left, #02282b, #156469);
 }
 
-footer .company, footer .connect, footer .newsletter {
+footer .company,
+footer .connect,
+footer .newsletter {
   margin-top: 32px;
 }
 

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        opensans: ["Open Sans", "sans-serif"],
+        publicsans: ["Public Sans", "sans-serif"],
       },
       colors: {
         secColor: "#FF8049",
