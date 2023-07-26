@@ -14,7 +14,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#" className="nav-links">
+          <a href="#features" className="nav-links">
             Features
           </a>
         </li>
@@ -24,7 +24,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#" className="nav-links">
+          <a href="#contact-us" className="nav-links">
             Contact Us
           </a>
         </li>
