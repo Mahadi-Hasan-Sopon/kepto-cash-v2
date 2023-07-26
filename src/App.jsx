@@ -90,7 +90,7 @@ function App() {
 
       {/* Brand Logo Section Start */}
 
-      <section className="brand-logos py-28 px-10 lg:px-[103px] bg-[#FAFAFA] ">
+      <section id="features" className="brand-logos py-28 px-10 lg:px-[103px] bg-[#FAFAFA] ">
         <h2 className="text-5xl font-bold text-secColor mb-3 text-center">
           Analyze your sales and marketing leads
         </h2>
@@ -183,7 +183,7 @@ function App() {
 
       {/* Contact Us Section Start */}
 
-      <section className="contact-us px-10 lg:px-[189px] py-14">
+      <section id="contact-us" className="contact-us px-10 lg:px-[189px] py-14">
         <h1 className="text-secColor font-bold text-3xl lg:text-5xl pb-4 text-center">
           Contact Us
         </h1>
